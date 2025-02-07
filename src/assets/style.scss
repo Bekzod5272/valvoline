@@ -1,0 +1,52 @@
+@font-face {
+  font-family: DPayFont;
+  src: url('/public/fonts//Evolventa-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: DPayFont;
+  src: url('/public/fonts//Evolventa-Regular.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: DPayFont;
+  src: url('/public/fonts//Evolventa-Regular.ttf');
+  font-weight: 400;
+}
+
+html {
+  font-family: DPayFont, sans-serif, Arial, Helvetica !important;
+  scroll-behavior: smooth;
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.39);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #007A6F33;
+  border-radius: 5px;
+}
+
+scrollbar-color {
+  background-color: thin rgba(128, 128, 128, 0.39) #007A6F80;
+}
