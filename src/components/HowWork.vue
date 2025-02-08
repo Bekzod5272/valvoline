@@ -20,7 +20,9 @@ const props = defineProps({
   <div
     class="h-auto pt-10 bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-how-work-back-dark"
   >
-    <p class="w-1/2 mx-auto text-[28px] poco2:text-[45px] text-white font-bold text-center">
+    <p
+      class="w-1/2 mx-auto text-[28px] poco2:text-[45px] text-white font-bold text-center"
+    >
       {{ data.slidesTitle }}
     </p>
     <section
@@ -61,7 +63,7 @@ const props = defineProps({
             >
               <img
                 width="290"
-                class="big2:w-[290px] big:min-w-[290px] phone:w-8/12 rounded-3xl md2:min-w-[120%] mx-auto poco:w-full big:h-[600px] poco:h-[550px] md:h-[490px] md:min-w-[240px] semimd:h-[530px]"
+                class="w-[100%] phone:w-8/12 rounded-3xl md2:min-w-[100%] mx-auto poco:w-full big:h-[600px] poco:h-[550px] md:h-[490px] md:min-w-[240px] semimd:h-[530px]"
                 :src="slide.thumb"
                 alt="image"
               />
