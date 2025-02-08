@@ -24,7 +24,7 @@ const showText = (idx) => {
     class="bg-gradient-to-l from-[#cc0000] to-[#660000] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] dark:text-white pt-20 pb-40"
   >
     <Contract :data="props.data" style="margin-bottom: 50px" />
-    <div class="container md:px-3">
+    <div class="poco2:container md:px-3">
       <section class="flex phone:w-full items-center flex-col">
         <article
           class="font-bold px-3 phone:text-center md:text-left md:pl-3 md:flex md:flex-col md:justify-center"

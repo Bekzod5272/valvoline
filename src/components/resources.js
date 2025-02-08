@@ -110,11 +110,11 @@ export const resource = {
     },
     documents: {
       services: [
-        { text: "Услуга «Автоплатеж»", link: "#auto" },
-        { text: "Оплата на местах", link: "#place" },
-        { text: "Услуга «Мои квитанции»", link: "#invoice" },
-        { text: "Перевод с карты на карту", link: "#card" },
-        { text: "Телеграм-бот", link: "https://t.me/digital_pay_support_bot" },
+        { text: "Условия промо акции", link: "#place" },
+        { text: "Как войти в Telegram бот?", link: "https://t.me/ValvolinePromoBot" },
+        { text: "Наши ценности", link: "#invoice" },
+        { text: "Вопросы и обращения", link: "#card" },
+        { text: "FAQ", link: "faq" }
       ],
       help: [
         {
@@ -123,7 +123,7 @@ export const resource = {
         },
       ]
     },
-    navLinks: ["Услуги", "Помощь", "О сервисе"],
+    navLinks: ["Главная", "Документы"],
     mainTitle:
       "Dpay - это платежная система и мобильный банкинг в Узбекистане, быстрая оплата через мобильное приложение с использованием пластиковой карты UZCARD и HUMO.",
     descr: "Описание и возможности системы",
@@ -280,6 +280,7 @@ export const resource = {
         text: "Зарегистрированные участники могут выиграть моментальные призы 1 из 1000",
       },
     ],
+    slidesTitle: "Покупайте один из этих продуктов и участвуйте в Супер Акции",
     slides: [
       {
         thumb: require("../img/01.webp"),
@@ -371,6 +372,9 @@ export const resource = {
     ],
     contacts: [
       "ООО «Lubric Oil Uzbekistan»”",
+      "Телефон: +998 71 231 87 87",
+      "Телефон: +998 90 123-45-67",
+      "E-mail: info@lubricoil.uz",
       "Telegram: @valvoline_support",
       "Рабочий график: с ПН по ПТ с 9:00 до 18:00"
     ],
@@ -534,11 +538,11 @@ export const resource = {
     },
     documents: {
       services: [
-        { text: `"Avtoto'lov" xizmati`, link: "#auto" },
-        { text: "Joyida to'lash", link: "#place" },
-        { text: '"Kvitantsiyalarim" xizmati', link: "#invoice" },
-        { text: "Kartadan kartaga o'tkazish", link: "#card" },
-        { text: "Telegram-bot", link: "https://t.me/digital_pay_support_bot" },
+        { text: "Aksiya shartlari", link: "#place" },
+        { text: "Telegram botiga qanday kirish mumkin?", link: "https://t.me/ValvolinePromoBot" },
+        { text: "Bizning qadriyatlarimiz", link: "#invoice" },
+        { text: "Savollar va so'rovlar", link: "#card" },
+        { text: "FAQ", link: "faq" }
       ],
       help: [
         {
@@ -547,7 +551,7 @@ export const resource = {
         }
       ],
     },
-    navLinks: ["Xizmatlar", "Yordam", "FAQs"],
+    navLinks: ["Xizmatlar", "Dokument"],
     mainTitle:
       "Dpay bu – O‘zbekistonda to‘lov tizimi va mobil banking, UZCARD va HUMO plastik kartalaridan foydalangan holda mobil ilova orqali tezkor to‘lov.",
     descr: "Tizimning tavsifi va imkoniyatlari",
@@ -655,6 +659,7 @@ export const resource = {
         text: '"Joyida" to‘lash – Android va iOS uchun mo‘ljallangan Dpay mobil ilovasi yordamida tovarlar va xizmatlar haqin to‘lashning muqobil usulidir.',
       },
     ],
+    slidesTitle: "Ushbu mahsulotlardan birini xarid qiling va Superaksiyada ishtirok eting",
     slides: [
       {
         thumb: require("../img/01.webp"),

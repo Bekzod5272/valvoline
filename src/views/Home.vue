@@ -68,20 +68,15 @@ const switchLang = (l) => {
   <section class="dark:bg-[#000000]">
     <nav
       id="top"
-      class="flex bg-gradient-to-r from-[#cc0000] to-[#660000] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] justify-between py-4 sm:px-3 phone:py-3 md:px-0 md2:py-5 !max-w-[100vw] dark:bg-[#212121] dark:text-white top-0 right-0 left-0"
+      class="flex bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] justify-between py-4 sm:px-3 phone:py-3 md:px-0 md2:py-5 !max-w-[100vw] dark:bg-[#212121] dark:text-white top-0 right-0 left-0"
     >
-      <div
-        class="container semimd:px-5 lg:px-3 flex justify-between px-5 poco:px-2 sm2:px-4 poco2:px-5 sm:px-0"
-      >
-        <div class="flex items-center gap-9">
-          <RouterLink to="/"><img src="..//img/logo1.png" alt="" /></RouterLink>
-        </div>
+      <div class="container flex justify-end">
         <div class="flex items-center font-semibold">
           <div class="mr-10 poco2:flex hidden items-center">
             <span
               @click="switchLang('ru')"
               :class="{
-                'bg-[#007A6F] text-white': lang === 'ru',
+                'bg-[#254893] text-white': lang === 'ru',
                 'dark:bg-[#808080] bg-[#bfbfbf] text-white': lang !== 'ru',
               }"
               class="dark:text-white phone:hidden semimd:inline font-bold px-2 rounded-md py-1 cursor-pointer mx-3"
@@ -91,7 +86,7 @@ const switchLang = (l) => {
             <span
               @click="switchLang('uz')"
               :class="{
-                'bg-[#007A6F] text-white': lang === 'uz',
+                'bg-[#254893] text-white': lang === 'uz',
                 'dark:bg-[#808080] bg-[#bfbfbf] text-white': lang !== 'uz',
               }"
               class="dark:text-white phone:hidden semimd:inline font-bold px-2 rounded-md py-1 cursor-pointer"
@@ -106,7 +101,7 @@ const switchLang = (l) => {
               >Light</span
             >
             <label
-              class="relative flex poco:ml-3 poco:mr-0 items-center cursor-pointer mx-3"
+              class="relative flex  items-center cursor-pointer ml-0 poco2:ml-3"
             >
               <input
                 type="checkbox"
@@ -115,7 +110,7 @@ const switchLang = (l) => {
               />
               <div
                 @click="switchLight"
-                class="w-14 h-7 phone:mr-3 phone:h-6 phone:w-12 bg-[#007A6F] peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-7 phone:peer-checked:after:translate-x-[22px] peer-checked:after:border-white after:content-[''] after:absolute after:top-1 phone:after:top-[3px] after:left-1 after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 phone:after:h-[18px] phone:after:w-[18px] after:transition-all"
+                class="w-14 h-7 phone:mr-3 phone:h-6 phone:w-12 bg-[#254893] peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-7 phone:peer-checked:after:translate-x-[22px] peer-checked:after:border-white after:content-[''] after:absolute after:top-1 phone:after:top-[3px] after:left-1 after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 phone:after:h-[18px] phone:after:w-[18px] after:transition-all"
               ></div>
             </label>
             <span

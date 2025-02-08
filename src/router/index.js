@@ -12,11 +12,6 @@ const routes = [
         name: "main",
         component: () => import("@/views/Main.vue"),
       },
-      {
-        path: "/services",
-        name: "services",
-        component: () => import("@/views/Services.vue"),
-      },
     ],
   },
 

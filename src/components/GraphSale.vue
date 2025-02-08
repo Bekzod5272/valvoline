@@ -3,7 +3,7 @@
     class="bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] flex flex-col items-center space-y-6"
   >
     <h1 class="text-white font-bold text-[48px]">График акции</h1>
-    <div class="relative w-full max-w-lg">
+    <div class="relative w-full max-w-[55rem] sm2:max-w-ls">
       <div
         class="absolute left-1/2 top-0 h-full w-0.5 border-l-2 border-dashed border-white transform -translate-x-1/2"
       ></div>
@@ -86,7 +86,7 @@ const events = computed(() => [
   {
     date: "15 ИЮЛЯ 2025",
     description: props.data.graphSaleModul.gentraAbout,
-    icon: AppSettingsIcon,
+    icon: AppDocServiceIcon,
     highlight: true,
   },
   {

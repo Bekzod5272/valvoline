@@ -4,22 +4,25 @@ import { Carousel, Slide } from "vue3-carousel";
 import AppRightIcon from "./icons/AppRightIcon.vue";
 import AppLeftIcon from "./icons/AppLeftIcon.vue";
 import { ref, computed } from "vue";
+import SectionTitle from "./SectionTitle.vue";
 
 const currentSlide = ref(1);
 let carousel = ref(null);
 
 const props = defineProps({
   data: {
-	type: Object,
-	required: true,
+    type: Object,
+    required: true,
   },
 });
-
 </script>
 <template>
   <div
-    class="h-auto bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-how-work-back-dark"
+    class="h-auto pt-10 bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-how-work-back-dark"
   >
+    <p class="w-1/2 mx-auto text-[28px] poco2:text-[45px] text-white font-bold text-center">
+      {{ data.slidesTitle }}
+    </p>
     <section
       class="dark:text-white pt-20 pb-10 justify-center container relative"
     >
@@ -45,7 +48,7 @@ const props = defineProps({
           }"
         >
           <Slide
-            class="pb-52 slide"
+            class="pb-[50px] slide"
             v-for="(slide, idx) in data.slides"
             :key="slide"
           >
@@ -68,13 +71,13 @@ const props = defineProps({
 
         <div>
           <button
-            class="flex items-center justify-center p-2 phone:left-2 semimd:left-10 phone:top-[40%] shadow bg-[#C32328] dark:bg-[rgb(42,40,56)] box-border absolute top-[500px] left-20 rounded-full"
+            class="flex items-center justify-center p-2 phone:left-2 semimd:left-10 phone:top-[50%] shadow bg-[#C32328] dark:bg-[rgb(42,40,56)] box-border absolute top-[500px] left-20 rounded-full"
             @click="carousel.prev"
           >
             <app-left-icon />
           </button>
           <button
-            class="flex items-center justify-center p-2 phone:right-2 semimd:right-10 phone:top-[40%] shadow bg-[#780F14] dark:bg-[rgb(42,40,56)] box-border absolute top-[500px] right-20 rounded-full"
+            class="flex items-center justify-center p-2 phone:right-2 semimd:right-10 phone:top-[50%] shadow bg-[#780F14] dark:bg-[rgb(42,40,56)] box-border absolute top-[500px] right-20 rounded-full"
             @click="carousel.next"
           >
             <app-right-icon />

@@ -1,15 +1,9 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import AppLogo from "@/components/icons/AppLogo.vue";
-import AppTopIcon from "@/components/icons/AppTopIcon.vue";
-import AppMenuIcon from "@/components/icons/AppMenuIcon.vue";
-import AppstoreIcon from "../components/icons/AppstoreIcon.vue";
-import GooglePlayIcon from "../components/icons/GooglePlayIcon.vue";
 import AppPhoneIcon from "@/components/icons/AppPhoneIcon.vue";
 import AppSendIcon from "@/components/icons/AppSendIcon.vue";
 import AppEmailIcon from "@/components/icons/AppEmailIcon.vue";
 
-import { RouterView, RouterLink } from "vue-router";
 
 const showContact = ref(false);
 let lang = ref(localStorage.getItem("lang") || "ru");
