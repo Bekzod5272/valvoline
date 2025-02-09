@@ -15,7 +15,7 @@ module.exports = {
       backgroundImage: {
         'how-work-back': "linear-gradient(to bottom, #007A6F1A 20%, rgba(247, 247, 247, 0.9) 40%, rgba(255, 255, 255, 0.7) 80%, #007A6F1A 100%)",
         'how-work-back-dark': "linear-gradient(to bottom, #007A6F99 20%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0.7) 50%, #007A6F99 100%)",
-      },
+      }
     },
     screens: {
       phone: "320px",

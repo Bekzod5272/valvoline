@@ -120,7 +120,7 @@ export const resource = {
       help: [
         {
           text: "Взаимодействие с оператором",
-          link: "/files/ofertaRu.docx",
+          link: "/files/public_offer_ru.pdf",
         },
       ]
     },
@@ -555,7 +555,7 @@ export const resource = {
       help: [
         {
           text: "Operator bilan suzbat qoidalari",
-          link: "/files/ofertaUz.docx",
+          link: "/files/public_offer_uz.pdf",
         }
       ],
     },
