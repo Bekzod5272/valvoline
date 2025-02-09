@@ -4,7 +4,6 @@ import AppPhoneIcon from "@/components/icons/AppPhoneIcon.vue";
 import AppSendIcon from "@/components/icons/AppSendIcon.vue";
 import AppEmailIcon from "@/components/icons/AppEmailIcon.vue";
 
-
 const showContact = ref(false);
 let lang = ref(localStorage.getItem("lang") || "ru");
 let theme = localStorage.getItem("theme") || false;
@@ -70,6 +69,9 @@ const switchLang = (l) => {
       </div>
       <div class="flex justify-center mt-10">
         <img src="../img/sale.png" class="object-contain" alt="" />
+      </div>
+      <div>
+        <h1 class="">15-Fevraldan 15-Dekabrgacha</h1>
       </div>
       <div class="w-full flex justify-evenly gap-5 mt-20 pb-10 relative">
         <img src="../img/bmw2.png" class="object-contain w-[52%]" />

@@ -23,7 +23,7 @@ const props = defineProps({
             {{ props.data.howUseTg.registerForPromo }}
           </li>
         </ul>
-        <a href="/#">
+        <a href="https://t.me/ValvolinePromoBot">
           <button
             class="bg-[#254893] py-3 px-7 text-lg text-white rounded-md mt-5"
           >

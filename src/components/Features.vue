@@ -21,7 +21,7 @@ const props = defineProps({
         <div class="w-7/12">
           <img
             class="object-contain text-center mb-5 md:mb-0"
-            src="../img/logo2.png"
+            src="../img/logo2.webp"
             alt="phone image"
           />
         </div>
@@ -40,7 +40,7 @@ const props = defineProps({
             <div
               v-for="(f, i) in props.data.features"
               :key="i"
-              class="w-5/12 semibig:w-[45%] phone:w-full sm:w-full poco2:text-left mb-4 poco2:mb-12 poco2:px-3 semimd:px-0 flex items-start gap-2 poco2:gap-6 justify-between"
+              class="w-5/12 flex-auto semibig:w-[45%] phone:w-full sm:w-full poco2:text-left mb-4 poco2:mb-12 poco2:px-3 semimd:px-0 flex items-start gap-2 poco2:gap-6 justify-between"
             >
               <div
                 class="max-w-[60px] box-border rounded-lg flex justify-center"
@@ -49,12 +49,20 @@ const props = defineProps({
               </div>
               <div>
                 <h2
-                  class="font-bold text-[18px] poco2:text-xl text-white dark:text-white mb-2 poco2:mb-4"
+                  :class="[
+                    'font-bold text-[18px] poco2:text-xl  dark:text-white mb-2 poco2:mb-4',
+                    f.highlight ? 'text-yellow-400 font-bold' : 'text-white',
+                  ]"
                 >
                   {{ f.title }}
                 </h2>
                 <p
-                  class="dark:text-indigo-300 semibig:leading-7 poco2:leading-6 text-[#EFEFEF] dark:opacity-50 text-[14px] poco2:text-lg"
+                  :class="[
+                    'dark:text-indigo-300 semibig:leading-7 poco2:leading-6  dark:opacity-50 text-[14px] poco2:text-lg',
+                    f.highlight
+                      ? 'text-yellow-400 font-bold'
+                      : 'text-[#EFEFEF]',
+                  ]"
                 >
                   {{ f.text }}
                 </p>

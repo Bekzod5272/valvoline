@@ -6,6 +6,7 @@ import AppDocumentIcon from "./icons/AppDocumentIcon.vue"
 import AppLightIcon from "./icons/AppLightIcon.vue"
 import AppUserIcon from "./icons/AppUserIcon.vue"
 import AppUserGroupIcon from "./icons/AppUserGroupIcon.vue"
+import AppRocketIcon from "./icons/AppRocketIcon.vue"
 
 export const resource = {
   ru: {
@@ -279,6 +280,12 @@ export const resource = {
         title: "Участвуйте в розыгрышах",
         text: "Зарегистрированные участники могут выиграть моментальные призы 1 из 1000",
       },
+      {
+        thumb: AppRocketIcon,
+        title: "Финальный розыгрышы супер призов",
+        text: "15 июля в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля Chevrolet Gentra!",
+        highlight: true
+      },
     ],
     slidesTitle: "Покупайте один из этих продуктов и участвуйте в Супер Акции",
     slides: [
@@ -400,6 +407,7 @@ export const resource = {
       writingTg: "Написать в Телеграм"
     },
     graphSaleModul: {
+      graphSale: "График акции",
       startSale: "Старт акции",
       vaucher10mln: "Розыгрыш ваучера на 10 млн сум",
       eventPlayerSale: "Отбор 10 участников для участия в розыгрыше Основных призов",
@@ -755,6 +763,7 @@ export const resource = {
     },
     graphSaleModul: {
       startSale: "Aksiya boshlanishi",
+      graphSale: "Rag'batlantirish jadvali",
       vaucher10mln: "10 million so'mlik vaucher o'ynaladi",
       eventPlayerSale: "Bosh sovrinlar o'yinida ishtirok etish uchun 10 nafar ishtirokchini tanlash",
       gentraAbout: "1 ta sozlangan CHEVROLET GENTRA va 9 ta maishiy texnikaning 10 ta ishtirokchisi o'rtasida o'yin.",

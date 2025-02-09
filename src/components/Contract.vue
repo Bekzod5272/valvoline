@@ -18,8 +18,12 @@ const props = defineProps({
       <li>{{ props.data.contractModul.phone }}: +998 XXX XXX</li>
       <li>XX XX Telegram: @ValvolinePromoBot</li>
     </ul>
-    <button class="bg-[#FFDD00] text-black font-bold px-5 py-2 mt-5 rounded-md">
-      {{ props.data.contractModul.writingTg }}
-    </button>
+    <a href="https://t.me/ValvolinePromoBot">
+      <button
+        class="bg-[#FFDD00] text-black font-bold px-5 py-2 mt-5 rounded-md"
+      >
+        {{ props.data.contractModul.writingTg }}
+      </button>
+    </a>
   </div>
 </template>
