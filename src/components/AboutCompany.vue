@@ -12,11 +12,11 @@ const props = defineProps({
     class="p-0 pt-5  w-full flex flex-col gap-10 semimd:flex-row sm:justify-between bg-gradient-to-r from-[#cc0000] to-[#660000] dark:bg-gradient-to-r dark:from-[#00000080] dark:to-[#007A6F80]"
   >
     <div
-      class="poco2:container semimd:w-[40%] flex justify-center items-center text-center semimd:text-left"
+      class="md:container semimd:w-[40%] flex semimd:justify-center  items-center  semimd:text-left"
     >
       <div class="overflow-hidden">
         <h1
-          class="font-[900] text-[50px] text-white sm:text-[70px] ml-10 leading-[1.1]"
+          class="font-[900] text-[50px] text-white md:text-[55px] semind:text-[60px] ml-10 leading-[1.1]"
         >
           THE <br />
           ORIGINAL <br />
@@ -25,7 +25,7 @@ const props = defineProps({
         </h1>
         <img
           src="../img/sport-car3.png"
-          class="object-cover w-[80%] relative right-[40%] sm:w-[80%] sm:mx-auto semimd:w-[100%]"
+          class="object-cover w-[80%] relative right-[40%] hidden semimd:block sm:mx-auto semimd:w-[100%]"
           alt="Company logo"
         />
       </div>
@@ -78,5 +78,10 @@ const props = defineProps({
         </div>
       </div>
     </div>
+    <img
+          src="../img/sport-car3.png"
+          class="object-cover w-[80%] relative right-[35%] block semimd:hidden sm:mx-auto semimd:w-[100%]"
+          alt="Company logo"
+        />
   </div>
 </template>
