@@ -18,8 +18,8 @@ const props = defineProps({
       </p>
       <p class="mt-5">{{ props.data.contractModul.infoSale }}</p>
         <ul class="ml-3 list-disc list-inside text-[15px] poco2:text-[16px]">
-          <li>{{ props.data.contractModul.phone }}: +998 XXX XXX</li>
-          <li>XX XX Telegram: @ValvolinePromoBot</li>
+          <li>{{ props.data.contractModul.phone }}: +998 71 231 87 87</li>
+          <li>Telegram: @ValvolinePromoBot</li>
         </ul>
       <a href="https://t.me/ValvolinePromoBot" class="flex justify-center">
         <button

@@ -72,14 +72,14 @@ const switchLang = (l) => {
     >
       <div class="container flex justify-end">
         <div class="flex items-center font-semibold">
-          <div class="mr-5 poco2:mr-10 flex  items-center">
+          <div class="mr-5 poco2:mr-10 flex items-center">
             <span
               @click="switchLang('ru')"
               :class="{
                 'bg-[#254893] text-white': lang === 'ru',
                 'dark:bg-[#808080] bg-[#bfbfbf] text-white': lang !== 'ru',
               }"
-              class="dark:text-white  font-bold px-2 rounded-md py-1 cursor-pointer mx-3"
+              class="dark:text-white font-bold px-2 rounded-md py-1 cursor-pointer mx-3"
             >
               RU
             </span>
@@ -89,7 +89,7 @@ const switchLang = (l) => {
                 'bg-[#254893] text-white': lang === 'uz',
                 'dark:bg-[#808080] bg-[#bfbfbf] text-white': lang !== 'uz',
               }"
-              class="dark:text-white  font-bold px-2 rounded-md py-1 cursor-pointer"
+              class="dark:text-white font-bold px-2 rounded-md py-1 cursor-pointer"
             >
               UZ
             </span>
@@ -121,28 +121,17 @@ const switchLang = (l) => {
         </div>
       </div>
       <div
-        class="fixed flex px-6 py-3 text-white gap-2 cursor-pointer bg-main rounded-full xl:top-[83vh] z-50 duration-300 lg:right-25 phone:right-[1rem] phone:top-[75vh] animate-pulse-scale"
-        @click="showContact = !showContact"
+        class="fixed flex cursor-pointer bg-main rounded-full xl:top-[83vh] z-50 duration-300 lg:right-25 phone:right-[1rem] phone:top-[75vh] animate-pulse-scale"
       >
-        <app-phone-icon />
-        <p class="poco2:block hidden">Bog'lanish</p>
-      </div>
-
-      <transition-group name="list" tag="div">
-        <div
-          v-if="showContact"
-          class="flex flex-col gap-4 fixed xl:top-[75vh] z-50 duration-300 lg:right-25 phone:right-2 phone:top-[60vh]"
+        <a
+          href="https://t.me/valvoline_support"
+          target="_blank"
+          class="bg-blue-500 text-white rounded-full px-6 py-2 cursor-pointer animate-slide-in flex gap-2"
         >
-          <a
-            href="https://t.me/valvoline_support"
-            target="_blank"
-            class="bg-blue-500 text-white rounded-full px-6 py-2 cursor-pointer animate-slide-in flex gap-2"
-          >
-            <app-send-icon />
-            <p>Telegram</p>
-          </a>
-        </div>
-      </transition-group>
+          <app-send-icon />
+          <p>Telegram</p>
+        </a>
+      </div>
       <div
         class="bg-[#f4f4f4] dark:bg-[#212121] rounded-full p-3 fixed xl:top-[90vh] z-50 duration-300 lg:right-20 phone:right-[1rem] phone:top-[85vh] poco:right-3"
         :class="isShown == false ? 'block' : 'hidden'"

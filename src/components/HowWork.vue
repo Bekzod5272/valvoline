@@ -21,7 +21,7 @@ const props = defineProps({
     class="h-auto pt-10 bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-how-work-back-dark"
   >
     <p
-      class="w-1/2 mx-auto text-[28px] poco2:text-[45px] text-white font-bold text-center"
+      class="w-[90%] poco2:w-[70%] mx-auto text-[25px] poco2:text-[45px] text-white font-bold text-center"
     >
       {{ data.slidesTitle }}
     </p>

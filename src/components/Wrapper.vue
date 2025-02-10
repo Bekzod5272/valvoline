@@ -80,8 +80,8 @@ img {
 .wrapper-sale-date {
   text-align: center;
   margin: 20px 0;
-  text-shadow: -1px -1px 0 #929090, 1px -1px 0 #929090, -1px 1px 0 #929090,
-    1px 1px 0 #929090;
+  text-shadow: -1px -1px 0 #cbc6c6, 1px -1px 0 #cbc6c6, -1px 1px 0 #cbc6c6,
+    1px 1px 0 #cbc6c6;
   color: #be0906;
 }
 </style>
