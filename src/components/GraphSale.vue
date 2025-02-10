@@ -19,9 +19,9 @@
         <div class="w-[35%] poco2:w-1/2 poco2:text-right text-center pr-6">
           <p
             :class="[
-              'text-white font-bold text-[16px]',
+              'text-white font-bold text-[15px] poco2:text-[16px]',
               event.highlight
-                ? 'text-yellow-400 font-bold text-[16px]'
+                ? 'text-yellow-400 font-bold text-[15px] poco2:text-[16px]'
                 : 'text-gray-200',
             ]"
           >
@@ -36,9 +36,9 @@
         <div class="w-[64%] poco2:w-1/2 pl-6">
           <p
             :class="[
-              'text-white font-medium text-[16px]',
+              'text-white font-medium text-[15px] poco2:text-[16px]',
               event.highlight
-                ? 'text-yellow-400 font-bold text-[16px]'
+                ? 'text-yellow-400 font-bold text-[15px] poco2:text-[16px]'
                 : 'text-gray-200',
             ]"
           >
