@@ -432,6 +432,10 @@ export const resource = {
       trustMillions: "Доверие миллионов клиентов по всему миру.",
       footerText: "С Valvoline ваш двигатель работает лучше и дольше!",
     },
+    wrapperModul: {
+      saleDate: "С 15 февраля по 15 декабря",
+      aboutSale: "Автомобили, тюнингованные послами, и ваучеры на сумму 10 000 000 сумов"
+    }
   },
 
   // 
@@ -786,6 +790,10 @@ export const resource = {
       trustMillions: "Dunyo bo‘ylab millionlab mijozlarning ishonchi.",
       footerText: "Valvoline bilan sizning dvigatelingiz yanada yaxshi va uzoqroq ishlaydi!",
     },
+    wrapperModul: {
+      saleDate: "15-Fevraldan 15-Dekabrgacha",
+      aboutSale: "Ambasadorlar tomonidan tuning qilingan avtomobillar va 10.000.000so'mlik vaucherlar"
+    }
   },
 
   //

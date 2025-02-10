@@ -12,6 +12,12 @@ const icons = [
   AppGasServiceIcon,
   AppWitsonIcon,
 ];
+const props = defineProps({
+  data: {
+    type: Object,
+    required: true,
+  },
+});
 </script>
 <template>
   <main
@@ -21,7 +27,11 @@ const icons = [
       <div class="flex justify-center phone2:w-[90%] mx-auto">
         <img
           src="../img/valvoline-logo.png"
-          class="mt-10 object-contain"
+          class="mt-10 hidden poco2:block object-contain"
+        />
+        <img
+          src="../img/valvolineLogoMob.webp"
+          class="w-[90%] mt-10 block poco2:hidden object-contain"
           alt=""
         />
       </div>
@@ -31,7 +41,7 @@ const icons = [
       <h1
         class="wrapper-sale-date font-bold text-3xl md:text-5xl tracking-wide outline-text style[]"
       >
-        15-Fevraldan 15-Dekabrgacha
+        {{ props.data.wrapperModul.saleDate }}
       </h1>
       <div class="flex justify-between w-[90%] mx-auto">
         <div v-for="(i, index) in icons" :key="index">
@@ -41,8 +51,7 @@ const icons = [
       <h1
         class="text-center font-bold text-white mt-5 uppercase text-[14px] poco2:text-[16px]"
       >
-        Abmasadorlar tomonidan tuning qilingan avtomobillar va 10.000.000
-        so'mlik vaucherlar
+        {{ props.data.wrapperModul.aboutSale }}
       </h1>
       <div
         class="w-full flex justify-evenly gap-1 poco2:gap-5 mt-20 pb-10 relative"
