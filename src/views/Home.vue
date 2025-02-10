@@ -72,14 +72,14 @@ const switchLang = (l) => {
     >
       <div class="container flex justify-end">
         <div class="flex items-center font-semibold">
-          <div class="mr-10 poco2:flex hidden items-center">
+          <div class="mr-5 poco2:mr-10 flex  items-center">
             <span
               @click="switchLang('ru')"
               :class="{
                 'bg-[#254893] text-white': lang === 'ru',
                 'dark:bg-[#808080] bg-[#bfbfbf] text-white': lang !== 'ru',
               }"
-              class="dark:text-white phone:hidden semimd:inline font-bold px-2 rounded-md py-1 cursor-pointer mx-3"
+              class="dark:text-white  font-bold px-2 rounded-md py-1 cursor-pointer mx-3"
             >
               RU
             </span>
@@ -89,7 +89,7 @@ const switchLang = (l) => {
                 'bg-[#254893] text-white': lang === 'uz',
                 'dark:bg-[#808080] bg-[#bfbfbf] text-white': lang !== 'uz',
               }"
-              class="dark:text-white phone:hidden semimd:inline font-bold px-2 rounded-md py-1 cursor-pointer"
+              class="dark:text-white  font-bold px-2 rounded-md py-1 cursor-pointer"
             >
               UZ
             </span>
@@ -101,7 +101,7 @@ const switchLang = (l) => {
               >Light</span
             >
             <label
-              class="relative flex  items-center cursor-pointer ml-0 poco2:ml-3"
+              class="relative flex items-center cursor-pointer ml-0 poco2:ml-3"
             >
               <input
                 type="checkbox"

@@ -35,17 +35,29 @@ const icons = [
       </h1>
       <div class="flex justify-between w-[90%] mx-auto">
         <div v-for="(i, index) in icons" :key="index">
-          <component :is="i" class="scale-[1.4]" />
+          <component :is="i" class="poco2:scale-[1.4]" />
         </div>
       </div>
-      <div class="w-full flex justify-evenly gap-5 mt-20 pb-10 relative">
+      <h1
+        class="text-center font-bold text-white mt-5 uppercase text-[14px] poco2:text-[16px]"
+      >
+        Abmasadorlar tomonidan tuning qilingan avtomobillar va 10.000.000
+        so'mlik vaucherlar
+      </h1>
+      <div
+        class="w-full flex justify-evenly gap-1 poco2:gap-5 mt-20 pb-10 relative"
+      >
         <img src="../img/bmw2.png" class="object-contain w-[52%]" />
         <img src="../img/gentra.png" class="object-contain w-[45%]" />
         <img
           src="../img/prizes.png"
-          class="object-contain absolute bottom-0 left-1/2 -translate-x-1/2"
+          class="object-contain poco2:block hidden absolute bottom-0 left-1/2 -translate-x-1/2"
         />
       </div>
+      <img
+        src="../img/prizes.png"
+        class="object-contain poco2:hidden block flex mx-auto"
+      />
     </div>
   </main>
 </template>
