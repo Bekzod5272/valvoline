@@ -1,18 +1,10 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import { resource } from "@/components/resources";
-import AppLogo from "@/components/icons/AppLogo.vue";
 import AppTopIcon from "@/components/icons/AppTopIcon.vue";
-import AppFooter from "./AppFooter.vue";
-import AppMenuIcon from "@/components/icons/AppMenuIcon.vue";
-import AppstoreIcon from "../components/icons/AppstoreIcon.vue";
-import GooglePlayIcon from "../components/icons/GooglePlayIcon.vue";
 import AppPhoneIcon from "@/components/icons/AppPhoneIcon.vue";
 import AppSendIcon from "@/components/icons/AppSendIcon.vue";
 import AppEmailIcon from "@/components/icons/AppEmailIcon.vue";
-
-import { RouterView, RouterLink } from "vue-router";
-import AppNav from "./AppNav.vue";
 
 const showContact = ref(false);
 let lang = ref(localStorage.getItem("lang") || "ru");
@@ -121,7 +113,7 @@ const switchLang = (l) => {
         </div>
       </div>
       <div
-        class="fixed flex cursor-pointer bg-main rounded-full xl:top-[83vh] z-50 duration-300 lg:right-25 phone:right-[1rem] phone:top-[75vh] animate-pulse-scale"
+        class="fixed flex cursor-pointer bg-main rounded-full xl:top-[83vh] z-50 duration-300 lg:right-25 phone:right-[1rem] phone:top-[78vh] animate-pulse-scale"
       >
         <a
           href="https://t.me/valvoline_support"

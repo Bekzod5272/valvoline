@@ -21,10 +21,10 @@ const showText = (idx) => {
 </script>
 <template>
   <section
-    class="h-auto bg-cover bg-center bg-[url('../img/background.jpg')] px-0 phone:px-2 dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] dark:text-white pt-5 sm:pt-20 pb-10 sm:pb-40"
+    class="h-auto bg-cover bg-center bg-[url('../img/background.jpg')] px-0 phone:px-[16px] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] dark:text-white pt-5 sm:pt-12 pb-10 sm:pb-40"
   >
     <div class="md:container">
-      <Contract :data="props.data" class="mb-[50px]" />
+      <Contract :data="props.data" class="mb-[20px] sm:mb-[50px]" />
       <section class="flex phone:w-full items-center flex-col">
         <article
           class="font-bold px-3 phone:text-center md:text-left md:pl-3 md:flex md:flex-col md:justify-center"
@@ -36,7 +36,7 @@ const showText = (idx) => {
           </h3>
         </article>
         <article
-          class="my-10 phone:mx-2 md:w-11/12 shadow-custom rounded-[20px] poco2:rounded-[50px] p-10 phone:p-5 bg-[#FFFFFF80] dark:bg-[#212121]"
+          class="my-5 phone:mx-2 md:w-11/12 shadow-custom rounded-[20px] poco2:rounded-[50px] p-10  phone:p-5 bg-[#FFFFFF80] dark:bg-[#212121]"
         >
           <div
             @click="showText(idx)"
@@ -49,7 +49,7 @@ const showText = (idx) => {
             :key="it"
           >
             <div
-              class="py-4 px-3 w-9/12 h-auto phone2:py-5 font-semibold text-black dark:text-white text-[13px] poco2:text-[16px]"
+              class="py-4 px-3 w-9/12 h-auto phone2:py-5 font-semibold text-black dark:text-white text-[16px]"
             >
               {{ it.title }}
               <div
@@ -67,7 +67,7 @@ const showText = (idx) => {
             <div
               :class="
                 activeIdx == idx
-                  ? 'max-h-[400px] bg-[#F8F8F880] dark:border-white ease-in-out dark:border-opacity-30 my-1 py-4 px-3 duration-700 md:pr-10'
+                  ? 'max-h-[400px] bg-[#F8F8F880] dark:border-white ease-in-out dark:border-opacity-30  py-4 px-3 duration-700 md:pr-10'
                   : 'max-h-0 duration-700 px-3 md:pr-10 ease-in-out'
               "
             >

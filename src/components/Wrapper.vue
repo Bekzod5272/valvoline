@@ -21,7 +21,7 @@ const props = defineProps({
 </script>
 <template>
   <main
-    class="h-auto bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-b dark:from-[#00000080] dark:to-[#007A6F80] pb-10 phone:px-2"
+    class="h-auto bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-b dark:from-[#00000080] dark:to-[#007A6F80] pb-10 phone:px-[16px]"
   >
     <div class="md:container">
       <div class="flex justify-center phone2:w-[90%] mx-auto">
@@ -54,7 +54,7 @@ const props = defineProps({
         {{ props.data.wrapperModul.aboutSale }}
       </h1>
       <div
-        class="w-full flex justify-evenly gap-1 poco2:gap-5 mt-20 pb-10 relative"
+        class="w-full flex flex-row-reverse poco2:flex-row justify-evenly gap-1 poco2:gap-5 mt-20 pb-3 poco2:pb-10 relative"
       >
         <img src="../img/bmw2.png" class="object-contain w-[52%]" />
         <img src="../img/gentra.png" class="object-contain w-[45%]" />

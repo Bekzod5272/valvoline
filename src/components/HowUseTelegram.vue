@@ -9,17 +9,23 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="bg-gradient-to-r from-[#cc0000] to-[#660000] dark:bg-gradient-to-r dark:from-[#00000080] dark:to-[#007A6F80] dark:text-white pb-10 poco2:pt-10 pt-5"
+    class="bg-gradient-to-r from-[#cc0000] to-[#660000] dark:bg-gradient-to-r dark:from-[#00000080] dark:to-[#007A6F80] dark:text-white pb-0 poco2:pb-10 poco2:pt-10 pt-5"
   >
     <div
-      class="md:container flex flex-col sm:flex-row items-center justify-center"
+      class="md:container w-[100%] poco2:w-[90%] flex flex-col sm:flex-row items-center justify-center"
     >
       <div class="p-5">
         <section-title> {{ props?.data?.howUseTg?.howEnter }} </section-title>
         <ul class="list-disc list-inside text-2xl text-white">
-          <li class="text-[14px] poco2:text-[16px] mt-0 poco2:mt-4">{{ props?.data?.howUseTg?.findBot }}</li>
-          <li class="text-[14px] poco2:text-[16px] mt-0 poco2:mt-4">{{ props.data.howUseTg.enterPromo }}</li>
-          <li class="text-[14px] poco2:text-[16px] mt-0 poco2:mt-4">
+          <a href="https://t.me/ValvolinePromoBot">
+            <li class="text-[16px] mt-0 poco2:mt-4">
+              {{ props?.data?.howUseTg?.findBot }}
+            </li>
+          </a>
+          <li class="text-[16px] mt-0 poco2:mt-4">
+            {{ props.data.howUseTg.enterPromo }}
+          </li>
+          <li class="text-[16px] mt-0 poco2:mt-4">
             {{ props.data.howUseTg.registerForPromo }}
           </li>
         </ul>

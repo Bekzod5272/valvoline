@@ -111,11 +111,10 @@ export const resource = {
     },
     documents: {
       services: [
-        { text: "Условия промо акции", link: "#place" },
-        { text: "Как войти в Telegram бот?", link: "https://t.me/ValvolinePromoBot" },
-        { text: "Наши ценности", link: "#invoice" },
-        { text: "Вопросы и обращения", link: "#card" },
-        { text: "FAQ", link: "faq" }
+        { text: "Условия промо акции", link: "wrapper" },
+        { text: "Как войти в Telegram бот?", link: "telegram" },
+        { text: "Наши ценности", link: "about" },
+        { text: "Вопросы и обращения", link: "email" }
       ],
       help: [
         {
@@ -151,9 +150,9 @@ export const resource = {
          15 декабря в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля BMW E-46 CUPE!`,
       },
       {
-        title: "Важно!",
+        title: "Примечание!",
         icon: AppLightIcon,
-        desc: "Поскольку победители определяются в ходе онлайн-розыгрыша, им будет сделан звонок во время игры. Если победитель не ответит, будет осуществлен звонок на резервный номер, указанный участником. В случае, если связаться не удастся, участие победителя аннулируется, и вместо него будет выбран новый победитель.  Если вы не смогли ответить на звонок, ваш выигрыш будет аннулирован, и участие завершится. Убедитесь, что ваш телефон включен и доступен во время розыгрыша.",
+        desc: "Поскольку победители определяются в ходе онлайн-розыгрыша, им будет сделан звонок во время игры. Если победитель не ответит, будет осуществлен звонок на резервный номер, указанный участником. В случае, если связаться не удастся, участие победителя аннулируется, и вместо него будет выбран новый победитель.",
       },
 
     ],
@@ -268,23 +267,28 @@ export const resource = {
 
       {
         thumb: SecuritySvg,
-        title: "Найдите стикер",
-        text: "На каждом продукте ищите приклеенный акционный стикер. Сотрите специальное покрытие на стикере монетой или твердым предметом.",
+        title: "Найдите акционный стикер",
+        text: "На каждом продукте ищите приклеенный акционный стикер.",
       },
       {
         thumb: StatisticsSvg,
         title: "Введите в Telegram-бот",
-        text: "Зайдите в Telegram-бота @ValvolinePromoBot, указанному на стикере, и зарегистрируйте промо-код",
+        text: "Зайдите по адресу Telegram-бота, указанному на стикере, и зарегистрируйте промо-код.",
+      },
+      {
+        thumb: PaymentSvg,
+        title: "Получите промо-код",
+        text: "Сотрите специальное покрытие на стикере монетой или твердым предметом.",
       },
       {
         thumb: CashbackSvg,
         title: "Участвуйте в розыгрышах",
-        text: "Зарегистрированные участники могут выиграть моментальные призы 1 из 1000",
+        text: "Зарегистрированные участники каждую неделю могут выиграть небольшие призы",
       },
       {
         thumb: AppRocketIcon,
         title: "Финальный розыгрышы супер призов",
-        text: "15 июля в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля Chevrolet Gentra!",
+        text: "1 июня в онлайн-формате будут определены 10 победителей, включая обладателя главного приза – автомобиля!",
         highlight: true
       },
     ],
@@ -431,10 +435,23 @@ export const resource = {
       uniqueFormula: "Уникальные формулы для долговечности двигателя.",
       trustMillions: "Доверие миллионов клиентов по всему миру.",
       footerText: "С Valvoline ваш двигатель работает лучше и дольше!",
+      whoWe: "Кто мы?",
+      rangeProducts: "Широкий ассортимент:",
+      ecoFriendliness: "Экологичность",
+      provenQual: "Проверенное качество:"
     },
     wrapperModul: {
       saleDate: "С 15 февраля по 15 декабря",
       aboutSale: "Автомобили, тюнинговый амбассадорамы , и ваучеры на сумму 10 000 000 сумов"
+    },
+    months: {
+      february: "ФЕВРАЛЯ",
+      march: "МАРТА",
+      may: "МАЯ",
+      july: "ИЮЛЯ",
+      september: "СЕНТЯБРЯ",
+      november: "НОЯБРЯ",
+      december: "ДЕКАБРЯ"
     }
   },
 
@@ -550,11 +567,10 @@ export const resource = {
     },
     documents: {
       services: [
-        { text: "Aksiya shartlari", link: "#place" },
-        { text: "Telegram botiga qanday kirish mumkin?", link: "https://t.me/ValvolinePromoBot" },
-        { text: "Bizning qadriyatlarimiz", link: "#invoice" },
-        { text: "Savollar va so'rovlar", link: "#card" },
-        { text: "FAQ", link: "faq" }
+        { text: "Aksiya shartlari", link: "wrapper" },
+        { text: "Telegram botiga qanday kirish mumkin?", link: "telegram" },
+        { text: "Bizning qadriyatlarimiz", link: "about" },
+        { text: "Savollar va so'rovlar", link: "email" },
       ],
       help: [
         {
@@ -563,13 +579,13 @@ export const resource = {
         }
       ],
     },
-    navLinks: ["Xizmatlar", "Dokument"],
+    navLinks: ["Asosiy", "Dokument"],
     mainTitle:
       "Dpay bu – O‘zbekistonda to‘lov tizimi va mobil banking, UZCARD va HUMO plastik kartalaridan foydalangan holda mobil ilova orqali tezkor to‘lov.",
     descr: "Tizimning tavsifi va imkoniyatlari",
     popularQuests: "Ommabop savollar",
-    abilsTitle: "Sovrinlar va lotereyalar haqida ma'lumot",
-    abilsSub: `Sovrinlarning umumiy soni: 1000 ta tezkor sovrinlar, 10 million so'mlik 5 ta vaucher, 18 ta maishiy texnika va 2 ta avtomobil.`,
+    abilsTitle: "Sovrinlar va o‘yinlar haqida ma’lumot",
+    abilsSub: `Sovrinlarning umumiy miqdori: 1000 ta tezkor sovrinlar, 10 million so'mlik 5 ta vaucher, 18 ta maishiy texnika va 2 ta avtomobil.`,
     abilsCards: [
       {
         title: "Tezkor sovg'alar",
@@ -579,7 +595,7 @@ export const resource = {
       {
         title: "10 million so'mlik vaucherlar",
         icon: AppUserGroupIcon,
-        desc: "Sovrinlarning umumiy soni: 1000 ta tezkor sovrinlar, 10 million so'mlik 5 ta vaucher, 18 ta maishiy texnika va 2 ta avtomobil.",
+        desc: "Sovrinlarning umumiy miqdori: 1000 ta tezkor sovrinlar, 10 million so'mlik 5 ta vaucher, 18 ta maishiy texnika va 2 ta avtomobil.",
       },
       {
         title: "Yakuniy o'yin",
@@ -588,9 +604,9 @@ export const resource = {
          15-dekabr kuni onlayn formatda yirik sovrinlar uchun 15 ta g'olib aniqlanadi, jumladan, bosh sovrin – tўning qilingan BMW E-46 CUPE avtomobili!`,
       },
       {
-        title: "Muhim!",
+        title: "Eslatma!",
         icon: AppLightIcon,
-        desc: "G'oliblar onlayn o'yin jarayonida aniqlanganligi sababli, ularga o'yin davomida qo'ng'iroq qilinadi. Agar g'olib javob bermasa, ishtirokchi tomonidan ko'rsatilgan zaxira raqamiga qo'ng'iroq qilinadi. Agar bog'lanish imkoni bo'lmasa, g'olibning ishtiroki bekor qilinadi va uning o'rniga yangi g'olib tanlanadi. Agar siz qo'ng'iroqqa javob bera olmasangiz, yutuq bekor qilinadi va ishtirok yakunlanadi. Ro'yxatdan o'tgan telefoningizning o'yin davomida yoqilgan va faol ekanligiga ishonch hosil qiling.",
+        desc: " G‘oliblar onlayn o‘yin davomida aniqlangani sababli, ularga o‘yin vaqtida telefon orqali qo‘ng‘iroq qilinadi. Agar g‘olib javob bermasa, ishtirokchi kiritgan ikkilamchi raqamga qo‘ng‘iroq qilinadi. Shunday bo‘lsa-da, agar telefon orqali bog‘lanishning imkoni bo‘lmasa, bu g‘olibning ishtiroki yakunlanadi va uning o‘rniga yangi g‘olib aniqlanadi.",
       },
     ],
 
@@ -652,23 +668,29 @@ export const resource = {
     features: [
       {
         thumb: PaymentSvg,
-        title: "Plastik kartalar​",
-        text: "Dpay ilovasida SMS-xabarnoma xizmatiga ulangan plastik kartalardan foydalaniladi. SMS-xabarnoma bepul ravishda, istalgan bank yoki infokioskda yoqtirishingiz mumkin.",
+        title: "Xarid qiling​",
+        text: "1L, 2L, 4L yoki 5L hajmdagi Valvoline motor moylaridan birini xarid qiling",
       },
       {
         thumb: SecuritySvg,
-        title: "Pul o‘tkazmalari​",
-        text: "Dpay ilovasida pul mablag’lari kartadan kartaga bir lahzada o‘tadi. O‘tkazma qabul qiluvchining karta raqamini har gal takroran kiritib o‘tirmaslik uchun Dpay da o‘tkazma qabul qiluvchining ism-sharifini saqlab qo‘yish mumkin – keyingi safar qabul qiluvchi ismini tanlashingiz kifoya.",
+        title: "Aksiya qog‘ozini toping​",
+        text: " Har bir mahsulotga yopishtirilgan aksiya qog‘ozini qidiring.",
       },
       {
         thumb: StatisticsSvg,
-        title: "To‘lovlar​",
-        text: "Dpay orqali bank kreditlarini, maishiy texnika uchun kreditlarni, soliqlar va yig‘imlarni, byudjet tashkilotlari xizmatlari, elektr, gaz, internet va boshqa ko‘plab xizmatlar haqlarini to‘lash mumkin.",
+        title: "Telegram botga kiriting",
+        text: "Qog‘ozda ko‘rsatilgan Telegram bot manziliga kiring va promo kodni ro‘yxatdan o‘tkazing.",
       },
       {
         thumb: CashbackSvg,
-        title: '"Joyida" to‘lash​',
-        text: '"Joyida" to‘lash – Android va iOS uchun mo‘ljallangan Dpay mobil ilovasi yordamida tovarlar va xizmatlar haqin to‘lashning muqobil usulidir.',
+        title: 'Sovrinli o‘yinlarda qatnashing​',
+        text: 'Ro‘yxatdan o‘tgan ishtirokchilar har hafta kichik sovrinlar uchun o‘ynash imkoniyatiga ega bo‘ladi.',
+      },
+      {
+        thumb: AppRocketIcon,
+        title: "Super sovg‘alar o‘yini",
+        text: "1-iyun kuni online formatda 10 ta katta sovrin va bosh sovrin – avtomobil egasini topadi!",
+        highlight: true
       },
     ],
     slidesTitle: "Ushbu mahsulotlardan birini xarid qiling va Superaksiyada ishtirok eting",
@@ -789,10 +811,23 @@ export const resource = {
       uniqueFormula: "Dvigatelning uzoq umr ko‘rishi uchun noyob formulalar.",
       trustMillions: "Dunyo bo‘ylab millionlab mijozlarning ishonchi.",
       footerText: "Valvoline bilan sizning dvigatelingiz yanada yaxshi va uzoqroq ishlaydi!",
+      whoWe: "Biz kimmiz?",
+      rangeProducts: "Mahsulotlarning keng assortimenti:",
+      ecoFriendliness: "Ekologik tozalik",
+      provenQual: "Tasdiqlangan sifat:"
     },
     wrapperModul: {
       saleDate: "15-Fevraldan 15-Dekabrgacha",
       aboutSale: "Ambasadorlar tomonidan tuning qilingan avtomobillar va 10.000.000 so'mlik vaucherlar"
+    },
+    months: {
+      february: "FEVRAL",
+      march: "MART",
+      may: "MAY",
+      july: "IYUL",
+      september: "SENTABR",
+      november: "NOYABR",
+      december: "DEKABR"
     }
   },
 

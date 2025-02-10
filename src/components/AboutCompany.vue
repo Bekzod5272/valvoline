@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
   <div
-    class="bg-gradient-to-r from-[#cc0000] to-[#660000] dark:bg-gradient-to-r dark:from-[#00000080] dark:to-[#007A6F80]"
+    class="bg-gradient-to-r from-[#cc0000] to-[#660000] dark:bg-gradient-to-r dark:from-[#00000080] dark:to-[#007A6F80] phone:px-[16px]"
   >
     <div
       class="md:container p-0 pt-5 w-full flex flex-col gap-10 semimd:flex-row sm:justify-between"
@@ -28,7 +28,7 @@ const props = defineProps({
           </h1>
           <img
             src="../img/sport-car3.png"
-            class="object-cover w-[80%]  hidden semimd:block sm:mx-auto semimd:w-[100%]"
+            class="object-cover w-[80%] hidden semimd:block sm:mx-auto semimd:w-[100%]"
             alt="Company logo"
           />
         </div>
@@ -41,7 +41,7 @@ const props = defineProps({
           <h1 class="font-bold mb-5 text-xl">
             {{ props.data.aboutCompany.valvolineText }}
           </h1>
-          <h2 class="font-bold mb-2">Кто мы?</h2>
+          <h2 class="font-bold mb-2">{{ props.data.aboutCompany.whoWe }}</h2>
           <p>
             <strong>Valvoline</strong>
             {{ props.data.aboutCompany.historyComp }}
@@ -55,11 +55,11 @@ const props = defineProps({
                 {{ props.data.aboutCompany.developmentOil }}
               </li>
               <li>
-                <strong>Широкий ассортимент:</strong>
+                <strong> {{ props.data.aboutCompany.rangeProducts }}</strong>
                 {{ props.data.aboutCompany.wideRange }}
               </li>
               <li>
-                <strong>Экологичность:</strong>
+                <strong>{{ props.data.aboutCompany.ecoFriendliness }}</strong>
                 {{ props.data.aboutCompany.ecoFriendly }}
               </li>
             </ul>
@@ -68,7 +68,7 @@ const props = defineProps({
             <h2 class="font-bold">{{ props.data.aboutCompany.whyChoose }}</h2>
             <ul class="ml-5 list-disc list-inside semimd:list-outside">
               <li>
-                <strong>Проверенное качество:</strong>
+                <strong>{{ props.data.aboutCompany.provenQual }}</strong>
                 {{ props.data.aboutCompany.provenQuality }}
               </li>
               <li>{{ props.data.aboutCompany.uniqueFormula }}</li>
