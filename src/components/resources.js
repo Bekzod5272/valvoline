@@ -131,7 +131,7 @@ export const resource = {
     popularQuests: "Популярные вопросы",
 
     abilsTitle: "Информация о призах и розыгрышах",
-    abilsSub: "Общее количество призов: моментальные призвы 1000, 30 – крупные призы и 2 автомобилей.",
+    abilsSub: "Общее количество призов: моментальные призы 1000, 5 – ваучеры на 10 млн сум, 18 бытовые техники и 2 автомобилей.",
     abilsCards: [
       {
         title: "Моментальные призы",
@@ -146,6 +146,7 @@ export const resource = {
       {
         title: "Финальный розыгрыш",
         icon: AppUserIcon,
+        highlight: true,
         desc: `15 июля в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля Chevrolet Gentra!  Победители будут определены с помощью Telegram-бота. 
          15 декабря в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля BMW E-46 CUPE!`,
       },
@@ -380,7 +381,6 @@ export const resource = {
     contacts: [
       "ООО «Lubric Oil Uzbekistan»”",
       "Телефон: +998 71 231 87 87",
-      "Телефон: +998 90 123-45-67",
       "E-mail: info@lubricoil.uz",
       "Telegram: @valvoline_support",
       "Рабочий график: с ПН по ПТ с 9:00 до 18:00"
@@ -565,7 +565,7 @@ export const resource = {
     descr: "Tizimning tavsifi va imkoniyatlari",
     popularQuests: "Ommabop savollar",
     abilsTitle: "Sovrinlar va lotereyalar haqida ma'lumot",
-    abilsSub: `Sovrinlarning umumiy soni: 1000 ta lahzali sovrin, 30 ta yirik sovrin va 2 ta avtomobil.`,
+    abilsSub: `Sovrinlarning umumiy soni: 1000 ta tezkor sovrinlar, 10 million so'mlik 5 ta vaucher, 18 ta maishiy texnika va 2 ta avtomobil.`,
     abilsCards: [
       {
         title: "Tezkor sovg'alar",
@@ -735,7 +735,6 @@ export const resource = {
     contacts: [
       "MCHJ «Lubric Oil Uzbekistan»",
       "Telefon: +998 71 231 87 87",
-      "Telefon: +998 90 123-45-67",
       "E-mail: info@lubricoil.uz",
       "Telegram: @ValvolinePromo",
       "Ish vaqti: Dushanbadan Jumagacha, 9:00 dan 18:00 gacha",

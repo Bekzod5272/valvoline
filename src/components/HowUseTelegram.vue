@@ -17,9 +17,9 @@ const props = defineProps({
       <div class="p-5">
         <section-title> {{ props?.data?.howUseTg?.howEnter }} </section-title>
         <ul class="list-disc list-inside text-2xl text-white">
-          <li class="text-xl mt-4">{{ props?.data?.howUseTg?.findBot }}</li>
-          <li class="text-xl mt-4">{{ props.data.howUseTg.enterPromo }}</li>
-          <li class="text-xl mt-4">
+          <li class="text-[14px] poco2:text-[16px] mt-0 poco2:mt-4">{{ props?.data?.howUseTg?.findBot }}</li>
+          <li class="text-[14px] poco2:text-[16px] mt-0 poco2:mt-4">{{ props.data.howUseTg.enterPromo }}</li>
+          <li class="text-[14px] poco2:text-[16px] mt-0 poco2:mt-4">
             {{ props.data.howUseTg.registerForPromo }}
           </li>
         </ul>

@@ -33,12 +33,22 @@ const props = defineProps({
             <div class="flex gap-5 items-center mb-2">
               <component :is="k.icon" />
               <h3
-                class="text-2xl font-semibold poco2:text-3xl text-white mb-5 phone:mb-2"
+                :class="[
+                  'text-2xl font-semibold poco2:text-3xl text-white mb-5 phone:mb-2',
+                  k.highlight ? 'text-yellow-400 font-bold' : 'text-white',
+                ]"
               >
                 {{ k.title }}
               </h3>
             </div>
-            <p class="text-lg text-white">{{ k.desc }}</p>
+            <p
+              :class="[
+                'text-lg text-white',
+                k.highlight ? 'text-yellow-400' : 'text-white',
+              ]"
+            >
+              {{ k.desc }}
+            </p>
           </div>
         </div>
       </div>

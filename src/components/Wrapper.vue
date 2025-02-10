@@ -15,7 +15,7 @@ const icons = [
 </script>
 <template>
   <main
-    class="h-auto bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-b dark:from-[#00000080] dark:to-[#007A6F80] pb-10"
+    class="h-auto bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-b dark:from-[#00000080] dark:to-[#007A6F80] pb-10 phone:px-2"
   >
     <div>
       <div class="flex justify-center phone2:w-[90%] mx-auto">

@@ -1,9 +1,9 @@
 <template>
   <div
-    class="bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] flex flex-col items-center space-y-6"
+    class=" bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] flex flex-col items-center space-y-6"
   >
-    <h1 class="text-white font-bold text-[48px]">{{ props.data.graphSaleModul.graphSale }}</h1>
-    <div class="relative w-full max-w-[55rem] sm2:max-w-ls">
+    <h1 class="text-white font-bold text-[30px] poco2:text-[48px]">{{ props.data.graphSaleModul.graphSale }}</h1>
+    <div class="md:container relative w-full max-w-[55rem] sm2:max-w-ls phone:px-2">
       <div
         class="absolute left-1/2 top-0 h-[90%] w-0.5 border-l-2 border-dashed border-white transform -translate-x-1/2"
       ></div>
@@ -15,8 +15,8 @@
         <div class="w-1/2 poco2:text-right text-center pr-6">
           <p
             :class="[
-              'text-white font-bold',
-              event.highlight ? 'text-yellow-400 font-bold' : 'text-gray-200',
+              'text-white font-bold text-[12px] poco2:text-[16px]',
+              event.highlight ? 'text-yellow-400 font-bold text-[12px] poco2:text-[16px]' : 'text-gray-200',
             ]"
           >
             {{ event.date }}
@@ -28,8 +28,8 @@
         <div class="w-1/2 pl-6">
           <p
             :class="[
-              'text-white font-medium',
-              event.highlight ? 'text-yellow-400 font-bold' : 'text-gray-200',
+              'text-white font-medium text-[12px] poco2:text-[16px]',
+              event.highlight ? 'text-yellow-400 font-bold text-[12px] poco2:text-[16px]' : 'text-gray-200',
             ]"
           >
             {{ event.description }}

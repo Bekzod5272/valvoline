@@ -13,7 +13,7 @@ const props = defineProps({
     class="bg-gradient-to-l from-[#cc0000] to-[#660000] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] dark:text-white"
   >
     <section
-      class="poco2:container py-20 phone:py-0 poco:px-2 phone:px-0 md:px-5 phone:pb-0 semimd:pb-28"
+      class="poco2:container py-20 phone:py-0 poco:px-2 phone:px-2 md:px-5 phone:pb-0 semimd:pb-28"
     >
       <article
         class="flex flex-col md:flex-row items-center pt-10 poco2:pt-20 semimd:gap-14 justify-between"
