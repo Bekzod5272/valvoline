@@ -38,11 +38,13 @@ const props = defineProps({
       <div class="flex justify-center mt-10">
         <img src="../img/sale.png" class="object-contain" alt="" />
       </div>
-      <h1
-        class="wrapper-sale-date font-bold text-3xl md:text-5xl tracking-wide outline-text style[]"
-      >
-        {{ props.data.wrapperModul.saleDate }}
-      </h1>
+      <div class="w-[60%] poco2:[w-100%] mx-auto">
+        <h1
+          class="wrapper-sale-date font-bold text-2xl md:text-5xl tracking-wide outline-text"
+        >
+          {{ props.data.wrapperModul.saleDate }}
+        </h1>
+      </div>
       <div class="flex justify-between w-[90%] mx-auto">
         <div v-for="(i, index) in icons" :key="index">
           <component :is="i" class="poco2:scale-[1.4]" />
