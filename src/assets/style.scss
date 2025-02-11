@@ -1,23 +1,17 @@
 @font-face {
-  font-family: DPayFont;
-  src: url('/public/fonts//Evolventa-Bold.ttf');
+  font-family: ValvolineFont;
+  src: url('/public/fonts/Gilroy-Black.ttf');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: DPayFont;
-  src: url('/public/fonts//Evolventa-Regular.ttf');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: DPayFont;
-  src: url('/public/fonts//Evolventa-Regular.ttf');
-  font-weight: 400;
+  font-family: ValvolineFontBold;
+  src: url('/public/fonts/Gilroy-Bold.ttf');
+  font-weight: 700;
 }
 
 html {
-  font-family: Inter, sans-serif, Arial, Helvetica !important;
+  font-family: ValvolineFont, sans-serif, Arial, Helvetica !important;
   scroll-behavior: smooth;
 }
 

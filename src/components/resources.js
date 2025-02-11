@@ -296,53 +296,48 @@ export const resource = {
     slides: [
       {
         thumb: require("../img/01.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 1.Advanced bydget managment",
       },
       {
         thumb: require("../img/02.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 2.Latest transaction history",
       },
       {
         thumb: require("../img/03.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 3.Transfers to people from your contact list",
       },
       {
         thumb: require("../img/04.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 4.Card-tocard transfers",
       },
       {
         thumb: require("../img/05.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 4.Card-tocard transfers",
       },
       {
         thumb: require("../img/06.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 1.Advanced bydget managment",
       },
       {
         thumb: require("../img/07.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 2.Latest transaction history",
       },
       {
         thumb: require("../img/08.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 3.Transfers to people from your contact list",
       },
       {
         thumb: require("../img/09.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 4.Card-tocard transfers",
       },
       {
         thumb: require("../img/10.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 4.Card-tocard transfers",
+      },
+      {
+        thumb: require("../img/11.webp"),
+      },
+      {
+        thumb: require("../img/12.webp"),
+      },
+      {
+        thumb: require("../img/13.webp"),
+      },
+      {
+        thumb: require("../img/14.webp"),
+      },
+      {
+        thumb: require("../img/15.webp"),
       }
     ],
     logos: [
@@ -698,28 +693,48 @@ export const resource = {
     slides: [
       {
         thumb: require("../img/01.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 1.Advanced bydget managment",
       },
       {
         thumb: require("../img/02.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 2.Latest transaction history",
       },
       {
         thumb: require("../img/03.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 3.Transfers to people from your contact list",
       },
       {
         thumb: require("../img/04.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 4.Card-tocard transfers",
       },
       {
         thumb: require("../img/05.webp"),
-        text: "A sed lorem felis, pulvinar pharetra. At tempus, vel sed faucibus amet sit elementum sed erat. Id nunc blandit pharetra facilisis.",
-        title: "Step 4.Card-tocard transfers",
+      },
+      {
+        thumb: require("../img/06.webp"),
+      },
+      {
+        thumb: require("../img/07.webp"),
+      },
+      {
+        thumb: require("../img/08.webp"),
+      },
+      {
+        thumb: require("../img/09.webp"),
+      },
+      {
+        thumb: require("../img/10.webp"),
+      },
+      {
+        thumb: require("../img/11.webp"),
+      },
+      {
+        thumb: require("../img/12.webp"),
+      },
+      {
+        thumb: require("../img/13.webp"),
+      },
+      {
+        thumb: require("../img/14.webp"),
+      },
+      {
+        thumb: require("../img/15.webp"),
       }
     ],
     logos: [
