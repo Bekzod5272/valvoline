@@ -48,6 +48,15 @@ const props = defineProps({
             >
               {{ k.desc }}
             </p>
+            <br />
+            <p
+              :class="[
+                'text-lg text-white',
+                k.highlight ? 'text-yellow-400' : 'text-white',
+              ]"
+            >
+              {{ k.numDesc }}
+            </p>
           </div>
         </div>
       </div>

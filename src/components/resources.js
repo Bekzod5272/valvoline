@@ -146,8 +146,8 @@ export const resource = {
         title: "Финальный розыгрыш",
         icon: AppUserIcon,
         highlight: true,
-        desc: `15 июля в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля Chevrolet Gentra!  Победители будут определены с помощью Telegram-бота. 
-         15 декабря в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля BMW E-46 CUPE!`,
+        numDesc: "1. 15 июля в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля Chevrolet Gentra!  Победители будут определены с помощью Telegram-бота. ",
+        desc: `2. 15 декабря в онлайн-формате будут определены 15 победителей крупных призов, включая обладателя главного приза – тюнингового автомобиля BMW E-46 CUPE!`,
       },
       {
         title: "Примечание!",
@@ -411,11 +411,11 @@ export const resource = {
       writingTg: "Написать в Телеграм"
     },
     graphSaleModul: {
-      graphSale: "График акции",
+      graphSale: "Промо-акция",
       startSale: "Старт акции",
       vaucher10mln: "Розыгрыш ваучера на 10 млн сум",
       eventPlayerSale: "Отбор 10 участников для участия в розыгрыше Основных призов",
-      gentraAbout: "Розыгрыш среди 10 участников 1 единицы тюнингованного автомобиля CHEVROLET GENTRA и 9 единиц бытовой техники",
+      gentraAbout: "Розыгрыш среди 10 участников 1 единицы тюнингованного автомобиля BMW и 9 единиц бытовой техники",
     },
     aboutCompany: {
       valvolineText: "Valvoline – Бренд №1 в мире моторных масел",
@@ -595,13 +595,14 @@ export const resource = {
       {
         title: "10 million so'mlik vaucherlar",
         icon: AppUserGroupIcon,
-        desc: "Sovrinlarning umumiy miqdori: 1000 ta tezkor sovrinlar, 10 million so'mlik 5 ta vaucher, 18 ta maishiy texnika va 2 ta avtomobil.",
+        desc: "Mashxur tyuning markazlari va avtoservislar xizmatlarini olish uchun 10 million so'mlik vaucherlar",
       },
       {
         title: "Yakuniy o'yin",
         icon: AppUserIcon,
-        desc: `15-iyul kuni onlayn formatda yirik sovrinlar uchun 15 ta g'olib aniqlanadi, jumladan, bosh sovrin – tўning qilingan Chevrolet Gentra avtomobili! G'oliblar Telegram-bot orqali aniqlanadi. 
-         15-dekabr kuni onlayn formatda yirik sovrinlar uchun 15 ta g'olib aniqlanadi, jumladan, bosh sovrin – tўning qilingan BMW E-46 CUPE avtomobili!`,
+        highlight: true,
+        desc: `1. 15-iyul kuni onlayn formatda yirik sovrinlar uchun 15 ta g'olib aniqlanadi, jumladan, bosh sovrin – tўning qilingan Chevrolet Gentra avtomobili! G'oliblar Telegram-bot orqali aniqlanadi.`,
+        numDesc: "2. 15-dekabr kuni onlayn formatda yirik sovrinlar uchun 15 ta g'olib aniqlanadi, jumladan, bosh sovrin – tyuning qilingan BMW E-46 CUPE avtomobili!"
       },
       {
         title: "Eslatma!",
@@ -788,10 +789,10 @@ export const resource = {
     },
     graphSaleModul: {
       startSale: "Aksiya boshlanishi",
-      graphSale: "Rag'batlantirish jadvali",
+      graphSale: "Promo-aksiya",
       vaucher10mln: "10 million so'mlik vaucher o'ynaladi",
       eventPlayerSale: "Bosh sovrinlar o'yinida ishtirok etish uchun 10 nafar ishtirokchini tanlash",
-      gentraAbout: "1 ta sozlangan CHEVROLET GENTRA va 9 ta maishiy texnikaning 10 ta ishtirokchisi o'rtasida o'yin.",
+      gentraAbout: "1 ta sozlangan BMW va 9 ta maishiy texnikaning 10 ta ishtirokchisi o'rtasida o'yin.",
     },
     aboutCompany: {
       valvolineText: "Valvoline – Dunyodagi №1 motor moyi brendi",
@@ -807,7 +808,7 @@ export const resource = {
       ecoFriendly:
         "Mahsulotlar chiqindilarni kamaytiradi va dvigatel samaradorligini oshiradi.",
       whyChoose: "Nima uchun Valvoline tanlanadi?",
-      provenQuality: "Etakchi avtomobil ishlab chiqaruvchilari tomonidan tavsiya etilgan.",
+      provenQuality: "Yetakchi avtomobil ishlab chiqaruvchilari tomonidan tavsiya etilgan.",
       uniqueFormula: "Dvigatelning uzoq umr ko‘rishi uchun noyob formulalar.",
       trustMillions: "Dunyo bo‘ylab millionlab mijozlarning ishonchi.",
       footerText: "Valvoline bilan sizning dvigatelingiz yanada yaxshi va uzoqroq ishlaydi!",
