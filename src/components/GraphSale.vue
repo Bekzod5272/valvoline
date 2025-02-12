@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] flex flex-col items-center space-y-6"
+    class="bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] flex flex-col items-center space-y-6 font-[ValvolineFontRegular]"
   >
     <h1 class="text-white font-bold text-[30px] mt-8 mb-5 poco2:text-[48px]">
       {{ props.data.graphSaleModul.graphSale }}

@@ -10,8 +10,32 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: ValvolineFontRegular;
+  src: url('/public/fonts/Gilroy-Regular.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: ValvolineFontSemiBold;
+  src: url('/public/fonts/Gilroy-Semibold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: ValvolineFontMedium;
+  src: url('/public/fonts/Gilroy-Medium.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: ValvolineFontUltra;
+  src: url('/public/fonts/Gilroy-UltraLight.ttf');
+  font-weight: 700;
+}
+
 html {
-  font-family: ValvolineFont, sans-serif, Arial, Helvetica !important;
+  font-family: ValvolineFontRegular, sans-serif, Arial, Helvetica !important;
   scroll-behavior: smooth;
 }
 

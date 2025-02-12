@@ -35,7 +35,7 @@ const props = defineProps({
       </div>
 
       <div
-        class="w-full semimd:w-[59%] p-2 sm2:p-10 poco2:p-5 flex justify-center items-center"
+        class="w-full semimd:w-[59%] p-2 sm2:p-10 poco2:p-5 flex justify-center items-center font-[ValvolineFontSemiBold]"
       >
         <div class="text-white">
           <h1 class="font-bold mb-5 text-xl">

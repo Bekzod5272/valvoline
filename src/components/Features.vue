@@ -25,7 +25,7 @@ const props = defineProps({
             alt="phone image"
           />
         </div>
-        <article class="text-white w-3/5 text-left phone:w-full">
+        <article class="text-white w-3/5 text-left phone:w-full font-[ValvolineFontMedium]">
           <h4 class="font-bold text-2xl mb-8 text-white text-black">
             {{ props.data.featuresText.conditionsPromo }}
           </h4>

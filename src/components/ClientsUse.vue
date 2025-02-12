@@ -13,7 +13,7 @@ const props = defineProps({
   <main
     class="bg-gradient-to-r from-[#cc0000] to-[#660000] dark:bg-gradient-to-r dark:from-[#00000080] dark:to-[#007A6F80] dark:text-white pb-10"
   >
-    <section id="about" class="pt-10 semimd:pb-0 dark:text-white poco2:pt-20">
+    <section id="about" class="pt-10 semimd:pb-0 dark:text-white poco2:pt-20 font-[ValvolineFontMedium]">
       <div class="md:container px-[16px] sm:px-5">
         <SectionTitle class="text-center mb-5">{{
           props.data.abilsTitle
