@@ -26,7 +26,7 @@ const props = defineProps({
           />
         </div>
         <article class="text-white w-3/5 text-left phone:w-full font-[ValvolineFontMedium]">
-          <h4 class="font-bold text-2xl mb-8 text-white text-black">
+          <h4 class="font-[ValvolineFontBold] text-2xl mb-8 text-white text-black">
             {{ props.data.featuresText.conditionsPromo }}
           </h4>
           <p class="dark:text-white text-[#EFEFEF] font-medium text-lg mb-10">
@@ -46,7 +46,7 @@ const props = defineProps({
               <div class="w-<100% - 60px>">
                 <h2
                   :class="[
-                    'font-bold text-[18px] poco2:text-xl  dark:text-white mb-2 poco2:mb-4',
+                    'font-[ValvolineFontBold] text-[18px] poco2:text-xl  dark:text-white mb-2 poco2:mb-4',
                     f.highlight ? 'text-yellow-400 font-bold' : 'text-white',
                   ]"
                 >

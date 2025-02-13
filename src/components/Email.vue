@@ -30,7 +30,7 @@ const showText = (idx) => {
           class="font-bold px-3 phone:text-center md:text-left md:pl-3 md:flex md:flex-col md:justify-center"
         >
           <h3
-            class="text-white mb-5 text-center dark:text-main phone:text-xl poco:text-2xl md:text-3xl"
+            class="text-white font-[ValvolineFontBold] mb-5 text-center dark:text-main phone:text-xl poco:text-2xl md:text-3xl"
           >
             {{ data.popularQuests }}
           </h3>

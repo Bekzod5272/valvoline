@@ -33,7 +33,7 @@ const props = defineProps({
               <component :is="k.icon" />
               <h3
                 :class="[
-                  'text-2xl font-semibold poco2:text-3xl text-white mb-5 phone:mb-2',
+                  'text-2xl font-[ValvolineFontBold] poco2:text-3xl text-white mb-5 phone:mb-2',
                   k.highlight ? 'text-yellow-400 font-bold' : 'text-white',
                 ]"
               >

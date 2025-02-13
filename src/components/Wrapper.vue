@@ -40,7 +40,7 @@ const props = defineProps({
       </div>
       <div class="w-[60%] poco2:[w-100%] mx-auto">
         <h1
-          class="wrapper-sale-date font-bold text-2xl md:text-5xl tracking-wide outline-text"
+          class="wrapper-sale-date font-bold text-2xl md:text-5xl tracking-wide font-[ValvolineFontBold] outline-text"
         >
           {{ props.data.wrapperModul.saleDate }}
         </h1>
@@ -51,7 +51,7 @@ const props = defineProps({
         </div>
       </div>
       <h1
-        class="text-center font-bold text-white mt-5 uppercase text-[14px] poco2:text-[16px]"
+        class="text-center font-bold font-[ValvolineFontBold] text-white mt-5 uppercase text-[14px] poco2:text-[16px]"
       >
         {{ props.data.wrapperModul.aboutSale }}
       </h1>

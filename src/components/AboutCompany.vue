@@ -19,7 +19,7 @@ const props = defineProps({
       >
         <div class="overflow-hidden">
           <h1
-            class="font-[900] text-[50px] text-white md:text-[55px] semind:text-[60px] ml-10 leading-[1.1]"
+            class="font-[ValvolineFontBold] text-[50px] text-white md:text-[55px] semind:text-[60px] ml-10 leading-[1.1]"
           >
             THE <br />
             ORIGINAL <br />
@@ -38,17 +38,17 @@ const props = defineProps({
         class="w-full semimd:w-[59%] p-2 sm2:p-10 poco2:p-5 flex justify-center items-center font-[ValvolineFontSemiBold]"
       >
         <div class="text-white">
-          <h1 class="font-bold mb-5 text-xl">
+          <h1 class="font-[ValvolineFontBold] mb-5 text-xl">
             {{ props.data.aboutCompany.valvolineText }}
           </h1>
-          <h2 class="font-bold mb-2">{{ props.data.aboutCompany.whoWe }}</h2>
+          <h2 class="font-[ValvolineFontBold] mb-2">{{ props.data.aboutCompany.whoWe }}</h2>
           <p>
             <strong>Valvoline</strong>
             {{ props.data.aboutCompany.historyComp }}
           </p>
 
           <div class="mt-7">
-            <h2 class="font-bold">{{ props.data.aboutCompany.whatMakes }}</h2>
+            <h2 class="font-[ValvolineFontBold]">{{ props.data.aboutCompany.whatMakes }}</h2>
             <ul class="ml-5 list-disc list-inside semimd:list-outside">
               <li>
                 <strong>{{ props.data.aboutCompany.modernTech }}</strong>
@@ -65,7 +65,7 @@ const props = defineProps({
             </ul>
           </div>
           <div class="mt-7">
-            <h2 class="font-bold">{{ props.data.aboutCompany.whyChoose }}</h2>
+            <h2 class="font-[ValvolineFontBold]">{{ props.data.aboutCompany.whyChoose }}</h2>
             <ul class="ml-5 list-disc list-inside semimd:list-outside">
               <li>
                 <strong>{{ props.data.aboutCompany.provenQual }}</strong>

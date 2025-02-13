@@ -2,7 +2,7 @@
   <div
     class="bg-cover bg-center bg-[url('../img/background.jpg')] dark:bg-gradient-to-l dark:from-[#00000080] dark:to-[#007A6F80] flex flex-col items-center space-y-6 font-[ValvolineFontRegular]"
   >
-    <h1 class="text-white font-bold text-[30px] mt-8 mb-5 poco2:text-[48px]">
+    <h1 class="text-white font-[ValvolineFontBold] text-[30px] mt-8 mb-5 poco2:text-[48px]">
       {{ props.data.graphSaleModul.graphSale }}
     </h1>
     <div
@@ -33,7 +33,7 @@
         <div class="flex items-center justify-center bg-red-700 rounded-full">
           <component :is="event.icon" />
         </div>
-        <div class="w-[64%] poco2:w-1/2 pl-6">
+        <div class="w-[64%] poco2:w-1/2 pl-6 uppercase">
           <p
             :class="[
               'text-white font-medium text-[15px] poco2:text-[16px]',

@@ -112,8 +112,17 @@ const switchLang = (l) => {
           </div>
         </div>
       </div>
+
       <div
-        class="fixed flex cursor-pointer bg-main rounded-full xl:top-[83vh] z-50 duration-300 lg:right-25 phone:right-[1rem] phone:top-[78vh] animate-pulse-scale"
+        class="bg-[#f4f4f4] dark:bg-[#212121] rounded-full p-3 fixed z-50 xl:top-[80vh] duration-300 lg:right-20 phone:right-[1rem] phone:top-[80vh] poco:right-3"
+        :class="isShown == false ? 'block' : 'hidden'"
+      >
+        <a href="#top">
+          <AppTopIcon class="fill-black" />
+        </a>
+      </div>
+      <div
+        class="fixed flex cursor-pointer bg-main rounded-full xl:top-[90vh] z-50 duration-300 lg:right-25 phone:right-[1rem] phone:top-[88vh] animate-pulse-scale"
       >
         <a
           href="https://t.me/valvoline_support"
@@ -122,14 +131,6 @@ const switchLang = (l) => {
         >
           <app-send-icon />
           <p>Telegram</p>
-        </a>
-      </div>
-      <div
-        class="bg-[#f4f4f4] dark:bg-[#212121] rounded-full p-3 fixed xl:top-[90vh] z-50 duration-300 lg:right-20 phone:right-[1rem] phone:top-[85vh] poco:right-3"
-        :class="isShown == false ? 'block' : 'hidden'"
-      >
-        <a href="#top">
-          <AppTopIcon class="fill-black" />
         </a>
       </div>
     </nav>
